@@ -1,0 +1,108 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	color: #9ba2a8;
+}
+.dark-background {
+	background-color: #23262f;
+}
+.light-background {
+	background-color: #272935;
+}
+.nav-link {
+	transition: 0.5s;
+}
+.green-bottom {
+	border-bottom: 2px solid #7ebca9;
+}
+.green-link {
+	color: #7ebca9;
+}
+.green-link:hover {
+	color: #7ebca9;
+	text-decoration: none;
+}
+#showcase-img {
+	border-radius: 25px;
+}
+.parallax {
+	background-image: url("images/background_image.jpg");
+	height: 100%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact-input {
+	background-color: #44475a;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	height: 30px;
+	width: 100%;
+}
+#contact-message {
+	height: 90px;
+	resize: none;
+}
+#contact-send {
+	border: 2px solid white;
+	background-color: #272935;
+	color: #ffffff;
+	height: 40px;
+	width: 20%;
+}
+#contact-send:hover {
+	background-color: #7ebca9;
+	border-color: #7ebca9;
+	color: black;
+	cursor: pointer;
+	transition: 0.5s;
+}
+footer {
+	height: 75px;
+	font-size: 18px;
+}
+.media-bar {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.media-bar a {
+	display: block;
+	text-align: center;
+	padding: 5px 8px;
+	color: white;
+	font-size: 18px;
+}
+.media-bar a:hover {
+	background-color: #000;
+}
+.github {
+	background-color: #2f363d;
+}
+.linkedin {
+	background-color: #007bb5;
+}
+.instagram {
+	background-color: #7232bd;
+}
+.youtube {
+	background-color: #ff0000;
+}
+.email {
+	background-color: #35445c;
+}
+#top-btn {
+	opacity: 0;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	transition: opacity 0.3s ease-in-out;
+	font-size: 18px;
+	outline: none;
+	background-color: #000;
+	padding: 5px 20px;
+	box-shadow: none;
+}
